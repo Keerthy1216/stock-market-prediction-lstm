@@ -13,6 +13,7 @@ This project implements a Stock Price Prediction System for Google (Alphabet Inc
 
 ## Dataset
 * The app uses historical stock data (google.csv) with the following columns:
+  
       * Date – The trading date
       * Open – Opening price
       * High – Highest price of the day
@@ -22,12 +23,12 @@ This project implements a Stock Price Prediction System for Google (Alphabet Inc
       * Volume – Number of shares traded
 
 ## Installation
-1. Clone Repository
+### 1. Clone Repository
 ```
 git clone <your-repo-url>
 cd <project-folder>
 ```
-2. Install dependencies
+### 2. Install dependencies
 ```
 pip install streamlit pandas numpy scikit-learn tensorflow
 ```
@@ -52,6 +53,7 @@ streamlit run app.py
    * Loss: Mean Squared Error (MSE)
 * Trained for 10 epochs with batch size of 32
 * Model is saved in:
+
 ```
 models\lstm_model.keras
 ```
@@ -59,12 +61,12 @@ models\lstm_model.keras
 ## Visualizations
 
 ![App Screenshot](./images/Stock_price.PNG)
-![App Screenshot](./Images/Model_Performance.PNG)
+![App Screenshot](./images/Model_Performance.PN)
 ###  Interpretation
 * The model's predictions are on average $3.41 away from the actual price.
 * This is considered good accuracy for a basic LSTM stock prediction model.
-![App Screenshot](./Images/Future_Predictions.PNG)
-![App Screenshot](./Images/Interactive_plots.PNG)
+![App Screenshot](./images/Future_Predictions.PNG)
+![App Screenshot](./images/Interactive_plots.PNG)
 
 ## Future Improvements
 * Add technical indicators (RSI, MACD) for better accuracy
