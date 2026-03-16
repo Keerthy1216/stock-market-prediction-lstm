@@ -14,13 +14,13 @@ This project implements a Stock Price Prediction System for Google (Alphabet Inc
 ## Dataset
 * The app uses historical stock data (google.csv) with the following columns:
   
-      * Date – The trading date
-      * Open – Opening price
-      * High – Highest price of the day
-      * Low – Lowest price of the day
-      * Close – Closing price
-      * Adj Close – Adjusted closing price
-      * Volume – Number of shares traded
+  * Date – The trading date
+  * Open – Opening price
+  * High – Highest price of the day
+  * Low – Lowest price of the day
+  * Close – Closing price
+  * Adj Close – Adjusted closing price
+  * Volume – Number of shares traded
 
 ## Installation
 ### 1. Clone Repository
@@ -61,10 +61,12 @@ models\lstm_model.keras
 ## Visualizations
 
 ![App Screenshot](./images/Stock_price.PNG)
-![App Screenshot](./images/Model_Performance.PN)
+![App Screenshot](./images/Model_Performance.PNG)
+
 ###  Interpretation
 * The model's predictions are on average $3.41 away from the actual price.
 * This is considered good accuracy for a basic LSTM stock prediction model.
+  
 ![App Screenshot](./images/Future_Predictions.PNG)
 ![App Screenshot](./images/Interactive_plots.PNG)
 
