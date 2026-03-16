@@ -1,0 +1,31 @@
+
+# Virtual environment
+stock_venv/
+.env/
+.vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# TensorFlow / Keras temporary files
+*.h5
+*.keras
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Streamlit cache (optional)
+.streamlit/
